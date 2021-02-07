@@ -57,18 +57,13 @@ a {
 }
 
 /* This is the main content */
-
-p {
-    font-size: 16px;
-}
-
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.main-content {
+.content-section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -77,11 +72,15 @@ p {
     color: #ffffff;
 }
 
+p {
+    font-size: 16px;
+}
+
 .content-img {
     max-height: 200px;
 }
 
-.main-content h2 {
+.content-section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
