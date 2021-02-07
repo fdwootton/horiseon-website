@@ -46,10 +46,6 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
 /* This is the largest image on the website */
 .hero {
     height: 800px;
@@ -61,6 +57,17 @@ p {
 }
 
 /* This is the main content */
+
+p {
+    font-size: 16px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -125,11 +132,6 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
 
 /* This is the sidebar */
 .benefits {
